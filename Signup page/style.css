@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(162, 255, 0);
+
+}
+
+.outer{
+    background: rgb(228,42,72);
+    background: linear-gradient(157deg, rgba(228,42,72,1) 26%, rgba(252,176,69,1) 84%);
+    height: 500px;
+    width: 1000px;
+    margin-left: 150px;
+    margin-top: 3em;
+    
+   
+
+}
+
+.inner{
+    background-color: white;
+    height: 500px;
+    width: 350px;
+    margin-left: 38em;
+}
+
+
+
+.sign{
+    font-size: 20px;
+    margin-left: 117px;
+    padding-top: 10px;
+    border: 2px solid rgba(228, 42, 72, 1);
+    border-radius: 33px;
+    padding: 10px;
+     
+}
+
+input{
+    height: 39px;
+    width: 229px;
+    margin-top: 25px;
+    margin-left: 48px;
+}
