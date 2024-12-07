@@ -1,18 +1,22 @@
 body{
-    background-color: white;
+    background-color:rgb(226 232 232);
     padding: 0;
     margin: 0;
+   position: fixed;
+
 }
 
 .nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 .nav .logo{
-    /* margin-left: -10em; */
     font-size: 47px;
+   
+    padding-left: 10px;
 }
 
 .nav-item{
@@ -22,24 +26,127 @@ body{
     list-style: none;
     padding: 0;
     margin: 0;
+    gap: 15px;
    
 }
 
 .nav li{
   
     margin: 0 40px;
+    
 }
 
 .nav a{
     text-decoration: none;
     font-size: 25px;
+    color:rgb(0, 0, 0) ;
 
+}
+
+.nav a:hover{
+    color: green;
+}
+.search{
+    display: flex;
+    
+}
+
+.search .ton{
+    font-size: 23px;
+    margin-right: 12em;
+    border: none;
+    padding: 5px 15px;
+   
+    background-color: rgb(226 232 232);
+    transition: background-color 0.3s;
+    cursor: pointer;
+
+}
+.ton:hover{
+   color: green;
 }
 
 .outer{
-    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  20px;
+    /* max-width: 1200px;
+    min-width: 1600px; */
+    margin: 20px auto;
+     
+}
+ 
+.imgpart {
+    flex: 1;
+ 
+    justify-content: center;
+    align-items: center;
+
+} 
+
+.imgpart img{
+    width: 160%;
+    height: 710px;
+    max-width: 1200px;
+    margin-left: -22px;
+   
+ 
+}
+ .content{
+    flex: 2;
+    padding: 10px;
+    margin-left: 17em;
+    margin-bottom: 15em;
+    align-items: left;
     
-    height: 500px;
-    width: 900px;
+}
+.content h4{
+    font-size: 15px;
+    margin-bottom: -17px;
+    word-spacing:6px;
+}
+
+.content h2{
+    font-size: 38px;
+    margin-bottom: 22px;
+    text-transform: uppercase;
    
 }
+
+.content p{
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.btn1 ,.btn2{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn1{
+    border-radius: 36px;
+    padding: 14px;
+    padding-left: 33px;
+    padding-right: 33px;
+    border: 3px solid green;
+    background-color:rgb(233, 238, 241);
+}
+
+.btn1:hover{
+    background-color: green;
+    color: white;
+}
+.btn2{
+    font-size:25px;
+     text-decoration: underline;
+    color: rgb(6, 61, 8);
+}
+
+
