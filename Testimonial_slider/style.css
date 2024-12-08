@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(202, 231, 231);
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outer{
+    margin-left: 21em;
+    margin-top: 6em;
+     margin-right: 37em;
+    border: 2px solid;
+    padding: 4px;
+    background-color: rgb(76, 187, 224);
+    border-radius: 10px;
+    /* height: 500px; */
+}
+
+.outer .img{
+    margin-left: 15em;
+    height: 250px;
+    width: 36%;
+    margin-top: 1em;
+    border-radius: 50%;
+}
+
+.outer .username{
+    font-size: 31px;
+    text-align: center;
+}
+.outer .words{
+
+    padding: 20px;
+    font-size: 20px;
+}
