@@ -1,0 +1,53 @@
+body{
+ 
+    background-color: #3e8fada1;
+
+}
+
+
+.container{
+    border: 2px solid black;
+    height: 442px;
+    width: 41%;
+    margin-left: 26em;
+    margin-top: 4em;
+    background-color: white;
+
+}
+
+h1{
+    font-size: 33px;
+    margin-left: 6em;
+    color:  #f7253b;
+}
+
+.words{
+    font-size: 25px;
+    margin-left: 33px;
+}
+
+input{
+    margin-left: 32px;
+    width: 82%;
+    font-size: 30px;
+    height: 12%;
+    padding-left: 12px;
+}
+
+#calculate{
+    margin-left: 1em;
+    font-size: 32px;
+    padding: 6px;
+    width: 84%;
+    color: #ededed;
+    background-color: #f7253b;
+}
+
+.total{
+    font-size: 34px;
+    padding-left: 23px;
+}
+
+#total{
+    font-size: 33px;
+}
