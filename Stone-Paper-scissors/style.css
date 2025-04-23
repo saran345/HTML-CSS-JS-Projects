@@ -1,0 +1,75 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+.back{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 16em;
+    margin-top: 4em;
+    padding: 0;
+    width: 50%;
+    align-items: center;
+    height: 400px;
+    background-color :rgb(240, 233, 6) ;
+}
+
+
+.back .display{
+    text-align: center;
+    padding: 1px;
+ }
+
+ .back h1 {
+    color: blue;
+ }
+
+ .back h3{
+    color: blue;
+ }
+
+ .back .buttons{
+     align-items: center;
+     cursor: pointer;
+     display: flex;
+     gap: 20px;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .back #scissors{
+   font-size: 40px;
+   background-color: red;
+   border: white;
+   
+ }
+
+ .back #rock{
+    font-size: 40px;
+    border: white;
+    background-color: blue;
+ }
+ .back #paper{
+    font-size: 40px;
+    border: white;
+    background-color: green;
+ }
+
+
+ .back #result{
+   font-size: 25px;
+}
+
+
+.back p{
+    font-size: 20px;
+}
+
+.back .user{
+    color: red;
+}
+.back .computer{
+    color: blue;
+}
